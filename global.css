@@ -1,0 +1,174 @@
+.greyBackground {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 350px;
+	width: 570px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: rgb(231, 235, 242);
+	box-shadow: 6px 8px 21px -3px rgba(0,0,0,0.75);
+ 	moz-box-shadow: 6px 8px 21px -3px rgba(0,0,0,0.75);
+	box-shadow: 6px 8px 21px -3px rgba(0,0,0,0.75);
+}
+.whiteBackground {
+	display: flex;
+	flex-direction: column;
+	height: 318px;
+	width: 569px;
+	background-color: white;
+	border-top: 1px solid rgb(196, 205, 224);
+	border-bottom: 1px solid rgb(196, 205, 224);
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+}
+.userPost {
+	display: flex;
+	flex-direction: column;
+	height: 90px;
+	padding: 15px;
+}
+.userInfo {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid rgb(233, 233, 233);
+	padding-bottom: 7.5px;
+}
+#profilePic {
+	height: 50px;
+	width: 50px;
+}
+.userPostInfo {
+	display: flex;
+	flex-direction: column;
+	padding-left: 7.5px;
+	width: 454px;
+}
+.userPostInfo__postDetails {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 7.5px;
+}
+.userPostInfo__userName {
+	color: #3b5998;
+	font-weight: 900;
+	font-size:13px;
+}
+.userPostInfo__bullet {
+	color: rgb(153, 153, 153);
+	font-weight: 500;
+	font-size:7px;
+}
+.userPostInfo__pageLikes{
+	font-weight: 500;
+	font-size:13px;
+	color: rgb(153, 153, 153);
+}
+.userPostInfo__postTime{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-weight: 500;
+	font-size:11px;
+	color: rgb(153, 153, 153);
+}
+#navArrow {
+	height: 22px;
+	width: 22px;
+}
+.statusUpdate {
+	font-weight: 500;
+	font-size:13px;
+	color: rgb(51, 51, 51);
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+.memberInteractions {
+	margin: 4px;
+}
+.memberInteractions__likeBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(237, 239, 244);
+	padding-left: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	font-weight: 500;
+	font-size:11px;
+	color: #3b5998;
+}
+.memberInteractions__bullet {
+	color: rgb(153, 153, 153);
+	font-weight: 500;
+	font-size:5px;
+}
+.memberInteractions__blakeJamiesonLike {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(237, 239, 244);
+	font-weight: 500;
+	font-size:11px;
+	color: #3b5998;
+	padding-left: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+}
+.memberInteractions__blakeJamiesonLike--dark {
+	color: rgb(51, 51, 51);	
+}
+.memberInteractions__commenter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(237, 239, 244);
+	padding-left: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+}
+#memberPic1 {
+	height: 35px;
+	width: 35px;
+}
+#memberPic2 {
+	height: 35px;
+	width: 35px;
+}
+#memberPic3 {
+	height: 35px;
+	width: 35px;
+}
+.memberInteractions__comment {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 7.5px;
+}
+.memberInteractions__commentContent {
+	font-weight: 600;
+	font-size:11px;
+	color: #3b5998;
+	padding-bottom: 2px;
+}
+.memberInteractions__commentContent--dark {
+	color: rgb(51, 51, 51);
+	font-weight: 500;
+}
+.memberInteractions__commentDetails {
+	font-weight: 500;
+	font-size:11px;
+	color: #3b5998;
+}
+.memberInteractions__commentDetails--dark {
+	font-weight: 500;
+	font-size:11px;
+	color: rgb(153, 153, 153);
+}
+.userInteractions {
+	
+}
