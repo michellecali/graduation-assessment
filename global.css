@@ -153,13 +153,15 @@
 	font-weight: 600;
 	font-size:11px;
 	color: #3b5998;
-	padding-bottom: 2px;
 }
 .memberInteractions__commentContent--dark {
 	color: rgb(51, 51, 51);
 	font-weight: 500;
 }
 .memberInteractions__commentDetails {
+	display: flex;
+	align-items: center;
+	padding-top: 2px;
 	font-weight: 500;
 	font-size:11px;
 	color: #3b5998;
